@@ -1,18 +1,18 @@
 class Pomodoro < Formula
   desc "Keyboard-first terminal Pomodoro timer"
   homepage "https://github.com/m0hdrar/pomodoro_tui"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/m0hdrar/pomodoro_tui/releases/download/v0.1.0/pomodoro-darwin-arm64.tar.gz"
-    sha256 "f8a06ff4ac942e6d8b4345d93b9f4253343c68b25153510c4b89389e6033da2e"
+    url "https://github.com/m0hdrar/pomodoro_tui/releases/download/v0.2.0/pomodoro-darwin-arm64.tar.gz"
+    sha256 "4225dea4b67e7d9744a6532bc96fa2e2f0c12a85ae5425b00f8b7a0ebbaeb2b5"
   end
   on_intel do
-    url "https://github.com/m0hdrar/pomodoro_tui/releases/download/v0.1.0/pomodoro-darwin-x64.tar.gz"
-    sha256 "cb8a74bfb2a3c31a00115cc9836049f36b65db6fb1bee60b46baa0aaac95a391"
+    url "https://github.com/m0hdrar/pomodoro_tui/releases/download/v0.2.0/pomodoro-darwin-x64.tar.gz"
+    sha256 "6642f3ef87d0f21d94d763beb1edd4a3df5ff960d5511ba6ee159d758786dd3b"
   end
 
   def install
