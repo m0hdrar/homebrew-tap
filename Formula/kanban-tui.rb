@@ -1,18 +1,18 @@
 class KanbanTui < Formula
   desc "Keyboard-first kanban board for the terminal"
   homepage "https://github.com/m0hdrar/kanban_tui"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/m0hdrar/kanban_tui/releases/download/v0.4.0/kanban-tui-darwin-arm64.tar.gz"
-    sha256 "0b7cb59e4d2d9973cb5a9d6929ae824673e20051fa7ba9118a7f0a8f2ab0e0d5"
+    url "https://github.com/m0hdrar/kanban_tui/releases/download/v0.5.0/kanban-tui-darwin-arm64.tar.gz"
+    sha256 "bd54c46f0069fc49ee97b64112eff2a8e116e9cb8c2632f101c6aacacbb8f83b"
   end
   on_intel do
-    url "https://github.com/m0hdrar/kanban_tui/releases/download/v0.4.0/kanban-tui-darwin-x64.tar.gz"
-    sha256 "dbeb62b30ebd2e8eed8693863cff13581673abbc2c9bd0520cc328c08d0d615e"
+    url "https://github.com/m0hdrar/kanban_tui/releases/download/v0.5.0/kanban-tui-darwin-x64.tar.gz"
+    sha256 "c40eb5b84cd7d4a1ecf91beba30b6ffc9a3789ec243d7bb1592f93b9b02f5722"
   end
 
   def install
